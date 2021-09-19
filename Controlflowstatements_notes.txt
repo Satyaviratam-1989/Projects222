@@ -1,0 +1,119 @@
+Control flow statements:
+========================
+Every Programming languages programs execution starts from first line executes each and every line
+and terminates when ever the last line of the program execution is over.
+
+Control Flow statements are used to disturbs the normal flow of executions of the programs.
+
+Python Supports 2 types of Control Flow Statements:
+
+    a)Conditional Statements
+    b)Looping Statements
+
+    a)Conditional Statements:
+    =========================
+        Conditional Statements are used to executes the set of block statements until the condition
+        remains false.
+
+        Python supports 3 types of Conditional Statements:
+
+            a)if block:
+            ============
+            if block is used to executes the set of code until the conditions remains false,if the
+            condition becomes false then automatically if block code will not be executed and skip the
+            if block.
+
+            syntax to define a if block:
+            ============================
+            if condition:
+                ==========
+                ==========
+                ===========
+            
+            b)elif block:
+            ==============
+            elif block is used to executes the set of code until the conditions remains false,if the
+            condition becomes false then automatically elif block code will not be executed and
+            skip the elif block.
+
+            with out if block we cannot work with elif block.
+
+            we can define more than one elif blocks as per our requirements in our program.
+            
+
+            c)else block:
+            =============
+            when ever the if block and all elif block conditions becomes false then automatically control moves to else block code and execute and else block code finally.
+
+            with out if block we cannot work with else block.
+
+#Program using if block:
+
+a=int(input("Enter the value of a="))
+if a<=10:
+    print("okay")
+print("End")'''
+=====================================================================================================
+Looping Statements:
+===================
+whileloop:
+==========
+while loop is used to execute the set of statements continuously until its condition remains false
+and if the while loop condition remains false then automatically loop will terminated.
+
+syntax:
+=======
+while condition:
+   ==========
+   ==========
+   ==========
+
+
+while loop using break statement:
+==================================
+break is a keyword in python,which is used in looping statements when ever control comes with in the
+break statement of while loop then it will not execute the loop then control will comes out from the
+loop.
+
+
+While Loop With continue Statement:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+continue is a keyword in python,which is used in looping when ever control comes with in the continue
+statement of while loop then it will not execute that iteration then control will start executing
+from next iteration onwards.
+
+
+for loop:
+-=-=-=-=-=-
+*)for loop is used to executes the set of statements with
+respect to every element in given iterable object.
+
+*)for loop works only on iterable objects.
+
+iterable objects:
+-=-=-=-=-=-=-=-=-
+Allowing and Accessing more than one element or
+more than one character at a time.
+str,list,tuple,set,dict
+
+non-iterable objects:
+-=-=-=-=-=-=-=-=-=-=-
+Allowing and Accessing only one element at a time.
+int,float,bool and complex
+
+syntax of for loop:
+-=-=-=-=-=-=-=-=-=-
+for variable in iterableobject:
+                       stmt1
+                       stmt2
+                       stmtn
+                       
+range function or range():
+=========================
+*)range is a predefined function which is used to allow only integers values.
+*)range is also an iterable object.
+
+syntax:
+=======
+a=range(startingdigit,endingdigit-1)
+print(a)
